@@ -1,0 +1,39 @@
+.btn-terracotta {
+  display: inline-block;
+  padding: 11px 19px;
+  background-color: #934027;
+  color: #fffaf2;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-terracotta:hover {
+  background-color: #6f301e;
+  color: #fffaf2;
+  text-decoration: none;
+}
+
+.btn-round {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  background-color: #f2dfca;
+  color: #773b26;
+  border: 1px solid #d8bda0;
+  border-radius: 50%;
+  font-family: Arial, sans-serif;
+  font-size: 21px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-round:hover:not(:disabled) {
+  background-color: #e9ceb0;
+}
+
+.btn-round:disabled {
+  opacity: 0.4;
+  cursor: default;
+}

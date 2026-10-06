@@ -1,0 +1,76 @@
+.img-circle {
+  border-radius: 50%;
+}
+
+#img-profile {
+  width: 118px;
+  height: 118px;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: 50% 29%;
+  border: 4px solid #e8d6bc;
+  box-shadow: 0 5px 16px rgba(85, 54, 30, 0.12);
+}
+
+.cat-story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 570px;
+  margin: 20px auto;
+  padding: 14px 20px;
+  background-color: #f5e9d9;
+  border-radius: 12px;
+}
+
+.cat-pair {
+  position: relative;
+  width: 178px;
+  height: 110px;
+  flex-shrink: 0;
+}
+
+.img-cat-main {
+  width: 106px;
+  height: 106px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 3px solid #fffaf1;
+}
+
+.img-cat-small {
+  position: absolute;
+  top: 35px;
+  left: 95px;
+  width: 74px;
+  height: 74px;
+  object-fit: cover;
+  object-position: 50% 70%;
+  border-radius: 12px;
+  border: 3px solid #fffaf1;
+  box-shadow: 0 3px 8px rgba(85, 54, 30, 0.1);
+  transform: rotate(6deg);
+}
+
+.cat-copy h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.cat-copy p {
+  margin: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 540px) {
+  .cat-story {
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px;
+  }
+
+  .cat-copy {
+    max-width: 270px;
+  }
+}

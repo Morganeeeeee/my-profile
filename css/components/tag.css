@@ -1,0 +1,45 @@
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.tag-peach {
+  background-color: #f5e0cf;
+  color: #81422a;
+  border-color: #e9c9ad;
+}
+
+.tag-sage {
+  background-color: #e7eddd;
+  color: #4e603a;
+  border-color: #cdd8bc;
+}
+
+.tag-blue {
+  background-color: #e5eced;
+  color: #395968;
+  border-color: #c4d5dc;
+}
+
+.tag-red {
+  background-color: #f8e4df;
+  color: #a33731;
+  border-color: #ecc2b9;
+}
+
+.tag-gold {
+  background-color: #f7ebcb;
+  color: #775819;
+  border-color: #e9d7a4;
+}
+
+.list-social .tag {
+  padding: 8px 12px;
+  font-size: 12px;
+}

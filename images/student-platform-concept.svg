@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="726" viewBox="0 0 1280 726" role="img" aria-labelledby="title description">
+  <title id="title">Student exchange and storage platform concept</title>
+  <desc id="description">A departing student passes everyday items to a temporary storage helper, who keeps them until an incoming student can collect them. This is an early-stage concept diagram.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ad6249"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="726" fill="#f7efe5"/>
+  <circle cx="1190" cy="-30" r="220" fill="#e9d8bf" opacity=".65"/>
+  <circle cx="-30" cy="690" r="160" fill="#eddacf" opacity=".65"/>
+  <text x="640" y="91" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#523b2c">A little help between arrivals</text>
+  <text x="640" y="139" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#796256">Connecting students who leave, stay and arrive</text>
+
+  <g stroke="#ad6249" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M 337 340 H 474"/>
+    <path d="M 807 340 H 944"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="19" fill="#796256" text-anchor="middle">
+    <text x="406" y="313">drop off</text>
+    <text x="875" y="313">collect later</text>
+  </g>
+
+  <g transform="translate(220,338)">
+    <circle r="104" fill="#f0d8c7"/>
+    <g stroke="#9b452d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M -53 -27 L 0 -53 L 53 -27 L 0 0 Z" fill="#f7efe5"/>
+      <path d="M -53 -27 V 40 L 0 67 L 53 40 V -27 M 0 0 V 67"/>
+      <path d="M -27 -40 L 26 -13"/>
+    </g>
+  </g>
+  <g transform="translate(640,338)">
+    <circle r="104" fill="#e3e7d3"/>
+    <g stroke="#707953" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M -63 -20 L 0 -68 L 63 -20 M -49 -29 V 61 H 49 V -29"/>
+      <rect x="-24" y="0" width="48" height="61" rx="3" fill="#f7efe5"/>
+      <path d="M -8 0 V 15 H 8 V 0 M -13 40 H 13"/>
+    </g>
+  </g>
+  <g transform="translate(1060,338)">
+    <circle r="104" fill="#ecd6c5"/>
+    <g stroke="#9b452d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <rect x="-47" y="-43" width="94" height="105" rx="13" fill="#f7efe5"/>
+      <path d="M -19 -43 V -64 H 19 V -43 M -26 -19 V 41 M 26 -19 V 41"/>
+      <path d="M -30 62 V 72 M 30 62 V 72"/>
+    </g>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="34" fill="#523b2c" text-anchor="middle">
+    <text x="220" y="500">Seller</text>
+    <text x="640" y="500">Storage helper</text>
+    <text x="1060" y="500">Buyer</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="23" fill="#796256" text-anchor="middle">
+    <text x="220" y="540">A student leaving</text>
+    <text x="640" y="540">A student staying</text>
+    <text x="1060" y="540">A student arriving</text>
+  </g>
+  <path d="M 340 604 H 940" stroke="#ddcdbd" stroke-width="2"/>
+  <text x="640" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" letter-spacing="3" fill="#9b452d">EARLY-STAGE CONCEPT</text>
+</svg>
